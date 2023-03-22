@@ -1,0 +1,394 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+.page{
+  width: 144rem;
+  height: 102.4rem;
+  margin: 1rem;
+}
+
+
+main{
+  position: relative;
+
+}
+
+main .hole{
+  position: absolute;
+  top: 22.6rem;
+  left: 18.8rem;
+  /* gap: 55.5rem; */
+
+  display: grid ;
+  grid-template-areas: 
+  "A B C D"
+  "E F G H"
+  "I J K L";
+  gap: 5.5rem;
+}
+
+main .fora1{
+  position: absolute;
+  top: 22.6rem;
+  left: 18.8rem;
+
+  display: grid ;
+  grid-template-areas: 
+  "A B C D"
+  "E F G H"
+  "I J K L";
+  gap: 5.5rem;
+  visibility: hidden;
+
+  /* animation-name: fora2;
+  animation-duration: 12s;
+  animation-timing-function: linear;
+  animation-delay: 150ms; */
+}
+
+main .fora2{
+  position: absolute;
+  top: 22.6rem;
+  left: 18.8rem;
+  /* gap: 55.5rem; */
+
+  display: grid ;
+  grid-template-areas: 
+  "A B C D"
+  "E F G H"
+  "I J K L";
+  gap: 5.5rem;
+  visibility: hidden;
+}
+
+main .fora3{
+  position: absolute;
+  top: 22.6rem;
+  left: 18.8rem;
+  /* gap: 55.5rem; */
+
+  display: grid ;
+  grid-template-areas: 
+  "A B C D"
+  "E F G H"
+  "I J K L";
+  gap: 5.5rem;
+  visibility: hidden;
+}
+
+main .dentro1{
+  position: absolute;
+  top: 22.6rem;
+  left: 18.8rem;
+  /* gap: 55.5rem; */
+
+  display: grid ;
+  grid-template-areas: 
+  "A B C D"
+  "E F G H"
+  "I J K L";
+  gap: 5.5rem;
+  visibility: hidden;
+}
+
+main .dentro2{
+  position: absolute;
+  top: 22.6rem;
+  left: 18.8rem;
+  /* gap: 55.5rem; */
+
+  display: grid ;
+  grid-template-areas: 
+  "A B C D"
+  "E F G H"
+  "I J K L";
+  gap: 5.5rem;
+  visibility: hidden;
+}
+
+/* -------------Buraco ------------- */
+
+.hole img:nth-child(1){
+  grid-area: A;
+}
+.hole img:nth-child(2){
+  grid-area: B;
+}
+.hole img:nth-child(3){
+  grid-area: C;
+}
+.hole img:nth-child(4){
+  grid-area: D;
+}
+.hole img:nth-child(5){
+  grid-area: E;
+}
+.hole img:nth-child(6){
+  grid-area: F;
+}
+.hole img:nth-child(7){
+  grid-area: G;
+}
+.hole img:nth-child(8){
+  grid-area: H;
+}
+.hole img:nth-child(9){
+  grid-area: I;
+}
+.hole img:nth-child(10){
+  grid-area: J;
+}
+.hole img:nth-child(11){
+  grid-area: K;
+}
+.hole img:nth-child(12){
+  grid-area: L;
+}
+
+
+/* ------------toupeira aparecendo 1-------------- */
+
+.fora1 img:nth-child(1){
+  grid-area: A;
+  animation: fora2 10s 150ms linear infinite;
+}
+.fora1 img:nth-child(2){
+  grid-area: B;
+}
+.fora1 img:nth-child(3){
+  grid-area: C;
+}
+.fora1 img:nth-child(4){
+  grid-area: D; 
+  animation: fora2 10s calc(150ms + 2s) linear infinite;
+}
+.fora1 img:nth-child(5){
+  grid-area: E;
+  animation: fora2 10s calc(150ms + 8s) linear infinite;
+}
+.fora1 img:nth-child(6){
+  grid-area: F;
+}
+.fora1 img:nth-child(7){
+  grid-area: G;
+}
+.fora1 img:nth-child(8){
+  grid-area: H;
+}
+.fora1 img:nth-child(9){
+  grid-area: I;
+}
+.fora1 img:nth-child(10){
+  grid-area: J;
+  animation: fora2 10s calc(150ms + 6s) linear infinite;
+}
+.fora1 img:nth-child(11){
+  grid-area: K;
+}
+.fora1 img:nth-child(12){
+  grid-area: L;
+  animation: fora2 10s calc(150ms + 04s) linear infinite;
+}
+
+
+/* ------------toupeira aparecendo 2-------------- */
+
+.fora2 img:nth-child(1){
+  grid-area: A;
+  animation: fora2 10s 300ms linear infinite;
+}
+.fora2 img:nth-child(2){
+  grid-area: B;
+}
+.fora2 img:nth-child(3){
+  grid-area: C;
+}
+.fora2 img:nth-child(4){
+  grid-area: D;
+  animation: fora2 10s calc(300ms + 2s) linear infinite;
+}
+.fora2 img:nth-child(5){
+  grid-area: E;
+  animation: fora2 10s calc(300ms + 8s) linear infinite;
+}
+.fora2 img:nth-child(6){
+  grid-area: F;
+}
+.fora2 img:nth-child(7){
+  grid-area: G;
+}
+.fora2 img:nth-child(8){
+  grid-area: H;
+}
+.fora2 img:nth-child(9){
+  grid-area: I;
+}
+.fora2 img:nth-child(10){
+  grid-area: J;
+  animation: fora2 10s calc(300ms + 6s) linear infinite;
+}
+.fora2 img:nth-child(11){
+  grid-area: K;
+}
+.fora2 img:nth-child(12){
+  grid-area: L;
+  animation: fora2 10s calc(300ms + 04s) linear infinite;
+}
+
+
+/* ------------toupeira pra fora -------------- */
+
+.fora3 img:nth-child(1){
+  grid-area: A;
+  animation: fora2 10s 450ms linear infinite;
+}
+.fora3 img:nth-child(2){
+  grid-area: B;
+}
+.fora3 img:nth-child(3){
+  grid-area: C;
+}
+.fora3 img:nth-child(4){
+  grid-area: D;
+  animation: fora2 10s calc(450ms + 2s) linear infinite;
+}
+.fora3 img:nth-child(5){
+  grid-area: E;
+  animation: fora2 10s calc(450ms + 8s) linear infinite;
+}
+.fora3 img:nth-child(6){
+  grid-area: F;
+}
+.fora3 img:nth-child(7){
+  grid-area: G;
+}
+.fora3 img:nth-child(8){
+  grid-area: H;
+}
+.fora3 img:nth-child(9){
+  grid-area: I;
+}
+.fora3 img:nth-child(10){
+  grid-area: J;
+  animation: fora2 10s calc(450ms + 6s) linear infinite;
+}
+.fora3 img:nth-child(11){
+  grid-area: K;
+}
+.fora3 img:nth-child(12){
+  grid-area: L;
+  animation: fora2 10s calc(450ms + 04s) linear infinite;
+}
+
+
+/* ------------toupeira desaparecendo 1-------------- */
+
+.dentro1 img:nth-child(1){
+  grid-area: A;
+  animation: fora2 10s 600ms linear infinite;
+}
+.dentro1 img:nth-child(2){
+  grid-area: B;
+}
+.dentro1 img:nth-child(3){
+  grid-area: C;
+}
+.dentro1 img:nth-child(4){
+  grid-area: D;
+  animation: fora2 10s calc(600ms + 2s) linear infinite;
+}
+.dentro1 img:nth-child(5){
+  grid-area: E;
+  animation: fora2 10s calc(600ms + 8s) linear infinite;
+}
+.dentro1 img:nth-child(6){
+  grid-area: F;
+}
+.dentro1 img:nth-child(7){
+  grid-area: G;
+}
+.dentro1 img:nth-child(8){
+  grid-area: H;
+}
+.dentro1 img:nth-child(9){
+  grid-area: I;
+}
+.dentro1 img:nth-child(10){
+  grid-area: J;
+  animation: fora2 10s calc(600ms + 6s) linear infinite;
+}
+.dentro1 img:nth-child(11){
+  grid-area: K;
+}
+.dentro1 img:nth-child(12){
+  grid-area: L;
+  animation: fora2 10s calc(600ms + 04s) linear infinite;
+}
+
+
+/* ------------toupeira desaparecendo 2-------------- */
+
+.dentro2 img:nth-child(1){
+  grid-area: A;
+  animation: fora2 10s 750ms linear infinite ;
+}
+.dentro2 img:nth-child(2){
+  grid-area: B;
+}
+.dentro2 img:nth-child(3){
+  grid-area: C;
+}
+.dentro2 img:nth-child(4){
+  grid-area: D;
+  animation: fora2 10s calc(750ms + 2s) linear infinite;
+}
+.dentro2 img:nth-child(5){
+  grid-area: E;
+  animation: fora2 10s calc(750ms + 8s) linear infinite;
+}
+.dentro2 img:nth-child(6){
+  grid-area: F;
+}
+.dentro2 img:nth-child(7){
+  grid-area: G;
+}
+.dentro2 img:nth-child(8){
+  grid-area: H;
+}
+.dentro2 img:nth-child(9){
+  grid-area: I;
+}
+.dentro2 img:nth-child(10){
+  grid-area: J;
+  animation: fora2 10s calc(750ms + 6s) linear infinite;
+}
+.dentro2 img:nth-child(11){
+  grid-area: K;
+}
+.dentro2 img:nth-child(12){
+  grid-area: L;
+  animation: fora2 10s calc(750ms + 04s) linear infinite;
+}
+
+
+
+@keyframes fora2 {
+  0%{
+    visibility: visible;
+    /* opacity: 0.7; */
+  }
+  1.5%{
+    visibility: hidden;
+
+  }
+  /* 100%{
+    visibility: hidden;
+  } */
+}
